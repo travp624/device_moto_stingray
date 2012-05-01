@@ -16,6 +16,12 @@
 
 $(call inherit-product, device/moto/wingray/device_base.mk)
 
+# This device is mdpi.  However 
+# we do this little trick to xhdpi and hdpi
+# if the xhdpi doesn't exist.
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
 PRODUCT_COPY_FILES += \
     device/moto/stingray/oem-iptables-init.sh:system/bin/oem-iptables-init.sh \
     device/moto/stingray/ril/tty2ttyd:system/bin/tty2ttyd \
