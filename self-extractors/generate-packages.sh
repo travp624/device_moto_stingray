@@ -14,15 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# 201632 = IRL06C
-# 236517 = IML70C
-# 237179 = IML73
-# 237867 = IML74B
-# 238432 = IML74E
-# 238649 = IML74G
-# 239410 = IML74K
-ZIP=trygon-ota-239410.zip
-BUILD=iml74k
+ZIP=trygon-ota-201632.zip
+BUILD=irl06c
 ROOTDEVICE=stingray
 DEVICE=stingray
 MANUFACTURER=moto
